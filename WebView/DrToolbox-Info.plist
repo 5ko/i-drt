@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2016 Petko Yotov. All rights reserved.</string>
 	<key>CFBundleDisplayName</key>
 	<string>${PRODUCT_NAME}</string>
 	<key>CFBundleExecutable</key>
@@ -21,13 +19,15 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1.0</string>
+	<string>1.1</string>
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
 	<key>LSApplicationCategoryType</key>
 	<string>public.app-category.business</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2016 Petko Yotov. All rights reserved. Commissioned by and developed with Dr Toolbox who are granted worldwide, perpetual, irrevocable, royalty-free permission, to use, modify, copy, publish, sub-licence and sell their copies of the software as long as their “open source licences” are respected.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>We need to know your location to show you the closest hospitals.</string>
 	<key>UIMainStoryboardFile</key>
