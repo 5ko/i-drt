@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -23,7 +23,8 @@
                                 <dataDetectorType key="dataDetectorTypes"/>
                             </webView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.11372549019607843" green="0.11372549019607843" blue="0.11372549019607843" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="0.7619160992409838" green="1" blue="0.85067349514099699" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="iDa-GL-UWe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="9Ln-pN-dL8"/>
                             <constraint firstItem="iDa-GL-UWe" firstAttribute="top" secondItem="8Vq-Uj-APp" secondAttribute="bottom" id="IW2-Me-oXG"/>
@@ -31,6 +32,9 @@
                             <constraint firstAttribute="trailing" secondItem="iDa-GL-UWe" secondAttribute="trailing" id="xNs-TY-2yP"/>
                         </constraints>
                     </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="viewWeb" destination="iDa-GL-UWe" id="Qj1-nN-QrY"/>
                     </connections>
