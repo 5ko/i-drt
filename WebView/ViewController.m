@@ -50,7 +50,9 @@
 {
     // JS Injection hack to solve the target="_blank" issue and open a real browser in such case.
     NSString *JSInjection = @"javascript: var allLinks = document.getElementsByTagName('a'); if (allLinks) {var i;for (i=0; i<allLinks.length; i++) {var link = allLinks[i]; var href=link.href; var target = link.getAttribute('target'); if (target && target == '_blank' && href.indexOf('newtab:')!=0) {link.setAttribute('target','_self');link.href = 'newtab:'+href;}}}";
-    [webView stringByEvaluatingJavaScriptFromString:JSInjection];
+  [webView stringByEvaluatingJavaScriptFromString:JSInjection];
+  webView.scrollView.bounces = NO;
+
 }
 
 - (void)didReceiveMemoryWarning
